@@ -26,6 +26,9 @@ Rails.application.configure do
 
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
+  # next 2 lines came from StackOverflow
+  #config.assets.css_compressor = :yui
+  #config.assets.js_compressor = :terser 
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
